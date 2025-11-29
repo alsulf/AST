@@ -1,11 +1,18 @@
-from setuptools import setup
+from setuptools import setup, find_packages
+
 setup(
-    name="Alsulf",
-    version="2025.11.0a1",
+    name="AST",
+    version="2025.11.0",
+    description="Automated Security Tools - Python CLI tools",
+    author="alsulf",
+    packages=find_packages(),
     py_modules=["Alsulf"],
+    install_requires=[
+        "colorama",
+    ],
     entry_points={
         "console_scripts": [
-            "Alsulf=Alsulf:main",
+            "ast=Alsulf:main_menu",
         ],
     },
 )
