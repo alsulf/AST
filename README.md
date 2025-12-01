@@ -1,15 +1,23 @@
-cara instal :
-buka terminal di laptop/komputer anda
-clone link dibawah ini 
-"git clone https://github.com/alsulf/AST.git" (jangan ikutkan tanda petiknya
-setelah berhasil mengclone, ketik
-"cd AST"
-lalu
-"pip install ."
-setelah berhasil ketik lagi
-"python Alsulf.py"
-selesai dan gunakan
+HOW TO INSTAL "Alsulf" TOOLS
 
-PERHATIAN !
-pastikan anda memiliki python versi terbaru sangat disarankan.
-ingat tanda petik tidak di ikutkan.
+1. PASTIKAN ANDA MEMILIKI PYTHON, SANGAT DISARANKAN VERSI TERBARU.
+2. PASTIKAN PYTHON YANG ANDA INSTAL MEMILIKI "pip" YANG BERFUNGSI DENGAN BAIK.
+3. CEK VERSI "pip" ANDA DENGAN COMMAND "pip -v", BISA DI TERMINAL ATAU WINDOWS POWERSHELL.
+4. ATAU WINDOWS + R, LALU KETIK "cmd" JIKA TIDAK BISA MENGGUNAKN POWERSHELL.
+5. TERLEBIH DAHULU INSTAL LIBRARY "colorama" (OPSIONAL) TAPI SANGAT DISARANKAN AGAR UI LEBIH MAKSIMAL.
+6. SETELAH BERHASIL, LANJUT INSTALL PACKAGE UTAMA "pip install Alsulf".
+7. JIKA MUNCUL TULISAN SUCCESS, BERARTI BERHASIL.
+8. LALU JALANKAN TOOLS, KETIK "ast".
+9. LALU AKAN MUNCUL TAMPILAN TOOLSNYA.
+10. TERDAPAT 7 PILIHAN TOOL, GUNAKAN SESUAI KEBUTUHAN.
+11. "0" UNTUK EXIT.
+
+HOW TO UNINSTALL "Alsulf" TOOLS
+
+1. BUKA TERMINAL ATAU POWERSHELL.
+2. KETIK "pip uninstall Alsulf".
+3. JIKA MUNCUL "y/N" pilih "y" LALU TEKAN ENTER.
+
+LICENSE : MIT LICENSE
+AUTHOR : ALSULF 
+VERSION : 2025.11.0a1
